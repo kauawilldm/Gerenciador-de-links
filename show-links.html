@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Links Favoritos - Gerenciador de Links Favoritos</title>
+    <link rel="stylesheet" href="links.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Meus Links Favoritos</h1>
+    <div id="link-list-container" class="link-list-container">
+        <!-- Os links separados por categorias serão renderizados aqui -->
+        <div id="category-links" class="category-links">
+            <h2>Trabalho</h2>
+            <ul id="trabalho-links" class="links">
+                <!-- Lista de links de trabalho -->
+            </ul>
+            <div class="category-divider"></div> <!-- Linha divisória -->
+            <h2>Estudo</h2>
+            <ul id="estudo-links" class="links">
+
+            </ul>
+            <div class="category-divider"></div>
+            <h2>Lazer</h2>
+            <ul id="lazer-links" class="links">
+               
+            </ul>
+            <div class="category-divider"></div> 
+            <h2>Outros</h2>
+            <ul id="outros-links" class="links">
+              
+            </ul>
+        </div>
+    </div>
+    <a href="index.html">
+        <button id="toggle-links-button">Adicionar link</button>
+    </a>
+</div>
+
+<script src="script.js"></script>
+<script src="show-links.js"></script>
+</body>
+</html>

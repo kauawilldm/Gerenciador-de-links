@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #fff;
+    line-height: 1.6;
+    overflow-x: hidden; /* Evita a rolagem horizontal */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #1e3c72;
+    margin-bottom: 20px;
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form input,
+form select,
+form button {
+    margin: 10px;
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+form input[type="text"],
+form input[type="url"] {
+    flex: 1;
+    min-width: 200px;
+}
+
+form select {
+    min-width: 150px;
+}
+
+form button {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: linear-gradient(to right, #2a5298, #1e3c72);
+    transform: translateY(-2px);
+}
+
+/* Estilo dos links */
+.link-container {
+    border: 2px solid #2a5298;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.link-container:hover {
+    transform: translateY(-5px);
+}
+
+.link-container .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.link-container .description {
+    color: #f8f9fa;
+    margin-bottom: 10px;
+}
+
+.link-container .url {
+    color: #ffc107;
+    margin-bottom: 10px;
+}
+
+.link-container .buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link-container .edit-button,
+.link-container .delete-button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.link-container .edit-button {
+    background: linear-gradient(to right, #ffc107, #ffca2b);
+    color: #1e3c72;
+}
+
+.link-container .edit-button:hover {
+    background: linear-gradient(to right, #ffca2b, #ffc107);
+    transform: translateY(-2px);
+}
+
+.link-container .delete-button {
+    background: linear-gradient(to right, #dc3545, #c82333);
+    color: #fff;
+}
+
+.link-container .delete-button:hover {
+    background: linear-gradient(to right, #c82333, #dc3545);
+    transform: translateY(-2px);
+}
+
+
+/* Estilo do botão "Ver Meus Links Favoritos" */
+.show-links-button {
+    display: block;
+    margin: 5px auto;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.show-links-button:hover {
+    background: linear-gradient(to right, #2a5298, #1e3c72);
+    transform: translateY(-2px);
+}
+
+
+
+
